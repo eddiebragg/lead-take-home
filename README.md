@@ -22,7 +22,9 @@ With the above information in mind we want you to write an HTTP API to satisfy t
 ```
 Given I'm a residential member in a Wayhome partnership
 When I request a summary of my partnerships current situation
-Then I see my current ownership share in percentage terms
+Then I see the property address
+And I see the the property value
+And I see my current ownership share in percentage terms
 And I see my current ownership share in monetary terms
 
 Given I'm a residential member in a Wayhome partnership
@@ -38,8 +40,11 @@ The API should be written in python but you can use any framework you like. We'd
 
 ### Frontend element
 
-To demonstrate frontend ability then we'd like to see a simple React app that consumes the endpoints implemented in the backend part of the task. You shouldn't go to any effort to make it look pretty.
+To demonstrate frontend ability then we'd like to see a simple React app that consumes the endpoints implemented in the backend part of the task. The below wireframes are rough guide for what we are looking for but you definitely shouldn't go to any effort to match the styles or make it look pretty.
 
+![Main wireframe](/wireframes/1.png)
+![Wireframe showing error](/wireframes/2.png)
+![Wireframe showing success](/wireframes/3.png)
 
 ## Documentation & other instructions
 
