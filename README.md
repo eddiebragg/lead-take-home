@@ -19,6 +19,7 @@ A Customer moves into their home on 30th September 2021. The house was purchased
 
 With the above information in mind we want you to write an HTTP API to satisfy the following features...
 
+```
 Given I'm a residential member in a Wayhome partnership
 When I request a summary of my partnerships current situation
 Then I see my current ownership share in percentage terms
@@ -31,6 +32,7 @@ Then I see that my ownership share has increased accordingly
 Given I'm a residential member in a Wayhome partnership
 When I attempt make a staircasing payment with an unacceptable amount
 Then I see an error message explaining why staircasing payment can't be accepted
+```
 
 The API should be written in python but you can use any framework you like. We'd like to see some form of data persistence and some test coverage.
 
@@ -42,6 +44,5 @@ To demonstrate frontend ability then we'd like to see a simple React app that co
 ## Documentation & other instructions
 
 Please append to this README any documentation you think appropriate. As a minimum we will need instructions on how we can run your API, frontend app and tests.
-
 
 *Something about how we want to receive the test code here...*
