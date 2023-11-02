@@ -40,7 +40,7 @@ The API should be written in python but you can use any framework you like. We'd
 
 ### Frontend element
 
-To demonstrate frontend ability then we'd like to see a simple React app that consumes the endpoints implemented in the backend part of the task. The images below are rough guide for what we are looking for but you definitely shouldn't go to any effort to match the styles or make it look pretty.
+To demonstrate frontend ability we'd like to see a simple React app that consumes the endpoints implemented in the backend part of the task. The images below are rough guide for what we are looking for but you definitely shouldn't go to any effort to match the styles or make it look pretty.
 
 ![Main wireframe](/wireframes/1.png)
 ![Wireframe showing error](/wireframes/2.png)
