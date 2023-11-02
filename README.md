@@ -6,7 +6,7 @@ Wayhome's core product is gradual homeownership. Our customers partner with an i
 
 Customers can make staircasing payments whenever they want but there are some rules with regards to the amount they can staircase at any given time...
 - Minimum purchase of £50
-- Inrcease of ownership share can't exceed 5% in one anniversary year (annual cap)
+- Increase of ownership share can't exceed 5% in one anniversary year (annual cap)
 - Annual cap doesn't rollover
 
 ### Annual cap example
