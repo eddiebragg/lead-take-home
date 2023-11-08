@@ -49,5 +49,3 @@ To demonstrate frontend ability we'd like to see a simple React app that consume
 ## Documentation & other instructions
 
 Please append to this README any documentation you think appropriate. As a minimum we will need instructions on how we can run your API, frontend app and tests.
-
-*Something about how we want to receive the test code here...*
