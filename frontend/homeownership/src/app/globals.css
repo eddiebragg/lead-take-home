@@ -1,0 +1,47 @@
+
+body {
+  background-color:rgb(245, 244, 240);
+  
+}
+
+.header {
+  background-color: rgb(20, 55, 64);
+  color: white;
+  font-size: x-small;
+  padding: 2%;
+}
+
+.header p {
+  font-size: small;
+  font-weight: bold;
+}
+
+.info {
+  color: rgb(230, 181, 88);
+}
+
+.form {
+  padding-left: 3%;
+  font-weight: bold;
+}
+
+.form input {
+  padding: 5px 10px;
+}
+
+.form button {
+  margin-top: 10px;
+  background-color: rgb(20, 55, 64);
+  color: white;
+  padding: 5px 10px;
+  display:block;
+
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: rgb(53, 114, 85)
+}

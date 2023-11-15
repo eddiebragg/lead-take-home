@@ -1,0 +1,36 @@
+[
+    {
+        "model": "api.property",
+        "pk": 1,
+        "fields": {
+            "flat_name": null,
+            "building_name": null,
+            "building_number": "45",
+            "street": "Moor Gate",
+            "town": "",
+            "city": "London",
+            "county": null,
+            "postcode": "SW1 0QS",
+            "purchase_date": "2020-12-13",
+            "purchase_price": 250000,
+            "deposit": 12500
+        }
+    },
+    {
+        "model": "api.property",
+        "pk": 2,
+        "fields": {
+            "flat_name": null,
+            "building_name": "Somewhere",
+            "building_number": null,
+            "street": "Over",
+            "town": "The",
+            "city": "Rainbow",
+            "county": null,
+            "postcode": "BS12 8JG",
+            "purchase_date": "2020-10-14",
+            "purchase_price": 1000000,
+            "deposit": 100000
+        }
+    }
+]

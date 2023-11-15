@@ -49,3 +49,66 @@ To demonstrate frontend ability we'd like to see a simple React app that consume
 ## Documentation & other instructions
 
 Please append to this README any documentation you think appropriate. As a minimum we will need instructions on how we can run your API, frontend app and tests.
+
+
+## Backend
+
+The backend uses the Django Rest Framework and an SQLite database
+
+### Dependecies
+
+- Python (3.6, 3.7, 3.8, 3.9, 3.10)
+
+### Install Virtual Env
+
+To install the Virtual Env do the following commands
+
+```
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Set up the DB
+
+To set up the database with tables, superuser and fixtures.
+
+```
+cd homeownership
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py loaddata fixtures/fixtures.json
+```
+
+### Run the Django dev server
+
+`python manage.py runserver`
+
+When running you will be able to see the API at http://localhost:8000/api/properties/1/
+
+Use the Django Admin using your superuser login at
+http://localhost:8000/admin
+
+### Run tests
+
+To run the tests
+
+`python manage.py test api/tests`
+
+## Frontend
+
+The Frontend uses NextJS v14 and React v18
+
+### Dependecies
+
+- Node.js 18.17 or later.
+
+## Running the NextJS server
+
+```
+cd frontend/homeownership
+npm run dev
+```
+
+Go to http://localhost:3000/property/1 to view the page.
